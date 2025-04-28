@@ -24,6 +24,10 @@
     }
 </script>
 
+<svelte:head>
+    <title>Inlet Sites</title>
+</svelte:head>
+
 <div class="container">
     <div class="hero {heroClass}">
         <img class="heroImage" src={heroImg} alt="Sunrise over Murrells Inlet">
