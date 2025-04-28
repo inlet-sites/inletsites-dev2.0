@@ -1,7 +1,3 @@
-<script>
-    import "$lib/global.css";
-</script>
-
 <svelte:head>
     <title>Service | Inlet Sites</title>
 </svelte:head>

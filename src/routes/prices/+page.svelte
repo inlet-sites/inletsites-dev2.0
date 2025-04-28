@@ -1,7 +1,3 @@
-<script>
-    import "$lib/global.css";
-</script>
-
 <svelte:head>
     <title>Prices | Inlet Sites</title>
 </svelte:head>
@@ -32,7 +28,7 @@
     <table><tbody>
         <tr>
             <td>Business Card Website</td>
-            <td>$20.00/month</td>
+            <td>$10.00/month</td>
         </tr>
         <tr>
             <td>Larger sites</td>
