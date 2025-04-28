@@ -1,7 +1,7 @@
 <script>
-    /*import Services from "./Services.svelte";
+    import Services from "./Services.svelte";
     import Prices from "./Prices.svelte";
-    import Process from "./Process.svelte";*/
+    import Process from "./Process.svelte";
     import logoWithText from "$lib/logoWithText.png";
     import logoWhiteText from "$lib/logoWhiteText.png";
 
