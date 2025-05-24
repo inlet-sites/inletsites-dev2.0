@@ -1,4 +1,12 @@
+@font-face{
+    font-family: "Space";
+    src: url("/space-grotesk.ttf") format("truetype");
+    font-weight: 100 700;
+    font-style: normal;
+}
+
 *{
+    font-family: "Space", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
