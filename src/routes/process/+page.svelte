@@ -60,5 +60,17 @@
 
     .top{
         margin: 25px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 800px){
+        .container{
+            padding: 15px;
+        }
+
+        .top{
+            margin: 25px 0;
+        }
     }
 </style>

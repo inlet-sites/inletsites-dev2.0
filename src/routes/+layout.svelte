@@ -10,3 +10,9 @@
 
     {@render children()}
 </div>
+
+<style>
+    .InletSites{
+        max-width: 100vw;
+    }
+</style>

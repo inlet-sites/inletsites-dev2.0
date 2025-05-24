@@ -1,4 +1,5 @@
 <script>
+    import {afterNavigate} from "$app/navigation";
     import logoWithText from "$lib/logoWithText.png";
     import logoWhiteText from "$lib/logoWhiteText.png";
 
@@ -8,10 +9,14 @@
     const toggleMenu = ()=>{
         displayMenu = !displayMenu;
     }
+
+    afterNavigate(()=>{
+        displayMenu = false;
+    });
 </script>
 
 <button class="openMenu" onclick={toggleMenu} aria-label="Open Menu">
-    <svg width="50px" height="50px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" color="#000000">
+    <svg width="50px" height="50px" stroke-width="1.5" viewBox="0 0 24 24" fill="none" color="currentColor">
         <path d="M3 5H21" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
         <path d="M3 12H21" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
         <path d="M3 19H21" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>

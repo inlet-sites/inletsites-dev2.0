@@ -55,38 +55,36 @@
 
     a{
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
         align-items: center;
         color: white;
         margin: 35px 0;
         font-size: 28px;
         text-decoration: none;
         box-shadow: 0 0 5px white;
-        padding: 15px;
         border-radius: 15px;
-        height: 250px;
-        width: 300px; 
+        height: 125px;
+        width: 100%;
+        max-width: 550px;
     }
 
     a p{
-        font-size: 14px;
-        margin-bottom: 15px;
+        font-size: 18px;
+        padding: 0 15px;
+        margin-left: 35px;
+        text-align: center;
     }
 
     a img{
-        max-height: 75%;
+        max-height: 100%;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
     }
 
     .sites{
         display: flex;
-        justify-content: space-around;
-        flex-wrap: flex;
-    }
-
-    .sites a{
-        display: flex;
         flex-direction: column;
-        justify-content: space-around;
-        margin: 35px;
+        max-width: 100%;
     }
 </style>
