@@ -13,14 +13,14 @@
 
     let heroImg = $state();
     let heroClass = $state();
-    let hero = $state(logoWithText);
+    let hero = $state(logoWhiteText);
     let rand = Math.floor(Math.random() * 5);
     switch(rand){
         case 0: heroImg = heroOne; break;
         case 1: heroImg = heroTwo; break;
         case 2: heroImg = heroThree; break;
         case 3: heroImg = heroFour; break;
-        case 4: heroImg = heroFive; hero = logoWhiteText; break;
+        case 4: heroImg = heroFive; break;
     }
 </script>
 
@@ -30,11 +30,20 @@
 
 <div class="container">
     <div class="hero {heroClass}">
+        <div class="heroOverlay"></div>
+
         <img class="heroImage" src={heroImg} alt="Sunrise over Murrells Inlet">
 
         <img class="heroLogo" src={hero} alt="Inlet Sites Logo">
 
         <h2>Custom Websites and Software, Built Locally, Just For You</h2>
+
+        <h3>Create a professional online presence for your business</h3>
+
+        <div class="buttonBox">
+            <a class="getStarted" href="/contact">Get Started</a>
+            <a class="viewWork" href="/our-work">View Our Work</a>
+        </div>
     </div>
 
     <Services/>
@@ -53,11 +62,21 @@
     .hero{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
         width: 100%; 
         height: 100vh;
         position: relative;
+        padding: 100px 0;
+    }
+
+    .heroOverlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(4, 30, 66, 0.75);
     }
 
     .heroImage{
@@ -71,16 +90,60 @@
     }
 
     .heroLogo{
-        width: 550px;
-        margin-bottom: 150px;
+        height: 85px;
+        z-index: 2;
     }
 
     .hero h2{
         color: white;
         text-align: center;
-        background: rgba(0, 0, 0, 0.66);
         padding: 15px;
         border-radius: 15px;
+        z-index: 2;
+        font-size: 48px;
+        max-width: 675px;
+    }
+
+    .hero h3{
+        font-size: 20px;
+        color: white;
+        z-index: 2;
+    }
+
+    .buttonBox{
+        z-index: 2;
+        margin-top: 35px;
+    }
+
+    .getStarted{
+        background: rgb(0, 160, 220);
+        color: white;
+        border-radius: 10px;
+        padding: 15px;
+        text-decoration: none;
+        font-weight: bold;
+        cursor: pointer;
+        margin-right: 35px;
+    }
+
+    .getStarted:hover{
+        background: rgb(4, 30, 66);
+    }
+
+    .viewWork{
+        border: 2px solid rgb(0, 160, 220);
+        color: rgb(0, 160, 220);
+        border-radius: 10px;
+        padding: 15px;
+        text-decoration: none;
+        background: none;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .viewWork:hover{
+        background: rgb(0, 160, 220);
+        color: white;
     }
 
     @media screen and (max-width: 700px){
