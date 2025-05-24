@@ -113,6 +113,8 @@
 
     .subtitle{
         font-size: 24px;
+        text-align: center;
+        padding: 0 10px;
     }
 
     h2{
@@ -139,8 +141,8 @@
     }
 
     @media screen and (max-width: 600px){
-        .header h1{
-            margin-bottom: 0;
+        .header h2{
+            margin-top: 0;
         }
     }
 </style>
