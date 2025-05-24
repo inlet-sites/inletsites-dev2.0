@@ -54,6 +54,10 @@
 </div>
 
 <style>
+    .OurWork{
+        background: var(--lightBackground);
+    }
+
     .header{
         display: flex;
         flex-direction: column;
@@ -91,6 +95,7 @@
         margin: 35px 0;
         text-decoration: none;
         color: var(--darkBlue);
+        background: white;
     }
 
     .imageContainer{

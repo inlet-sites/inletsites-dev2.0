@@ -1,7 +1,8 @@
 :root{
-    --darkBlue: #041e42;
-    --lightBlue: #00a0dc;
-    --lightText: #718096;
+    --darkBlue: rgb(4, 30, 66);
+    --lightBlue: rgb(0, 160, 220);
+    --lightText: rgb(113, 128, 150);
+    --lightBackground: rgb(232, 240, 249);
 }
 
 @font-face{
