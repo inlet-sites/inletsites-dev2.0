@@ -1,3 +1,9 @@
+:root{
+    --darkBlue: #041e42;
+    --lightBlue: #00a0dc;
+    --lightText: #718096;
+}
+
 @font-face{
     font-family: "Space";
     src: url("/space-grotesk.ttf") format("truetype");
@@ -10,9 +16,4 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body{
-    background: #041e42;
-    color: rgb(200, 200, 200);
 }
