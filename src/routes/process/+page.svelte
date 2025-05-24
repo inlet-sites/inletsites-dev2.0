@@ -1,5 +1,6 @@
 <svelte:head>
     <title>Process | Inlet Sites</title>
+    <meta name="description" content="A description of the process for web development with Inlet Sites">
 </svelte:head>
 
 <div class="Process">

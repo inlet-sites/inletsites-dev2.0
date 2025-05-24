@@ -1,8 +1,9 @@
 <svelte:head>
     <title>Contact | Inlet Sites</title>
+    <meta name="description" content="Inlet sites web development contact information">
 </svelte:head>
 
-<div class="container">
+<div class="Contact">
     <h1>Get in touch:</h1>
 
     <a href="mailto:lee@inletsites.dev">lee@inletsites.dev</a>
@@ -10,12 +11,14 @@
 </div>
 
 <style>
-    .container{
+    .Contact{
         display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
-        margin: 75px auto;
-        width: 90%;
+        height: 100vh;
+        width: 100vw;
+        background: var(--lightBackground);
     }
 
     h1{
@@ -24,8 +27,9 @@
     }
 
     a{
-        color: white;
+        color: black;
         margin: 15px 0;
         font-size: 28px;
+        font-weight: bold;
     }
 </style>
