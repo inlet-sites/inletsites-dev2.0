@@ -1,5 +1,6 @@
 <svelte:head>
     <title>Service | Inlet Sites</title>
+    <meta name="description" content="Prices for Inlet Sites web development services">
 </svelte:head>
 
 <div class="Services">

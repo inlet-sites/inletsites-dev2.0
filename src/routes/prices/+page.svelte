@@ -2,118 +2,145 @@
     <title>Prices | Inlet Sites</title>
 </svelte:head>
 
-<div class="container">
-    <h1>Prices</h1>
-    <p class="firstNote">Prices displayed here are a guide to the general prices. Total cost is created on an individual, case-by-case basis.</p>    
-    
-    <h2 id="businessCard"><a href="/services#businessCard">Business-Card Website</a></h2>
-    <p class="note">*Development costs will be waived for the remainder of 2024 (up to 5 pages)</p>
-    <table><tbody>
-        <tr>
-            <td>Up to 5 pages</td>
-            <td>$250.00</td>
-        </tr>
-        <tr>
-            <td>Additional pages</td>
-            <td>$50.00/page</td>
-        </tr>
-        <tr>
-            <td>Changes (sites already hosted w/ Inlet Sites)</td>
-            <td>3 free, then $25</td>
-        </tr>
-    </tbody></table>
+<div class="Prices">
+    <div class="header">
+        <h1>Prices</h1>
+        <h2 class="subtitle">A guide to Inlet Sites pricing</h2>
+    </div>
 
-    <h2>Hosting</h2>
-    <p class="note">*Hosting of custom sites or online stores will be larger and individually negotiated</p>
-    <table><tbody>
-        <tr>
-            <td>Business Card Website</td>
-            <td>$10.00/month</td>
-        </tr>
-        <tr>
-            <td>Larger sites</td>
-            <td>Individually negotiated</td>
-        </tr>
-    </tbody></table>
 
-    <h2>Domain</h2>
-    <p>The cost of a domain depends on the domain you want. Inlet Sites charges nothing additional for this.</p>
-
-    <h2>Blog</h2>
-    <p class="note">*Additional service, requires website</p>
-    <table><tbody>
-        <tr>
-            <td>Inlet Sites portal</td>
-            <td>$25.00/month</td>
-        </tr>
-        <tr>
-            <td>Portal on website</td>
-            <td>$500.00 development cost + $25.00/month</td>
-        </tr>
-    </tbody></table>
-
-    <h2>Photo Gallery</h2>
-    <p class="note">*Additional service, requires website</p>
-    <table><tbody>
-        <tr>
-            <td>Standard gallery using Inlet Sites portal</td>
-            <td>$500.00 development</td>
-        </tr>
-        <tr>
-            <td>Custom photo gallery or portal</td>
-            <td>Negotiated individually</td>
-        </tr>
-    </tbody></table>
-
-    <table>
-        <caption>Monthly cost based on number of photos</caption>
-        <tbody>
+    <div class="content">
+        <p class="firstNote">*Prices displayed here are a guide to the general prices. Total cost is created on an individual, case-by-case basis.</p>    
+        
+        <h2 id="businessCard"><a href="/services#businessCard">Business-Card Website</a></h2>
+        <p class="note">*Development costs will be waived for the remainder of 2025 (up to 3 pages)</p>
+        <table><tbody>
             <tr>
-                <td>0-100</td>
-                <td>$15</td>
+                <td>Up to 3 pages</td>
+                <td>$150.00</td>
             </tr>
             <tr>
-                <td>101-500</td>
-                <td>$25</td>
+                <td>Additional pages</td>
+                <td>$50.00/page</td>
             </tr>
             <tr>
-                <td>501-1000</td>
-                <td>$45</td>
-            <tr>
-                <td>1000+</td>
-                <td>$75</td>
+                <td>Changes (sites already hosted w/ Inlet Sites)</td>
+                <td>2 free, then $25</td>
             </tr>
-        </tbody>
-    </table>
+        </tbody></table>
 
-    <h2>Email</h2>
-    <p class="note">*Additional service, requires website</p>
-    <table><tbody>
-        <tr>
-            <td>Email address at your site</td>
-            <td>$5.00/month/email</td>
-        </tr>
-        <tr>
-            <td>Automated emailing</td>
-            <td>$0.01/email</td>
-        </tr>
-    </tbody></table>
+        <h2>Hosting</h2>
+        <p class="note">*Hosting of custom sites or online stores will be larger and individually negotiated</p>
+        <table><tbody>
+            <tr>
+                <td>Business Card Website</td>
+                <td>$10.00/month</td>
+            </tr>
+            <tr>
+                <td>Larger sites</td>
+                <td>Individually negotiated</td>
+            </tr>
+        </tbody></table>
 
-    <h2>Custom site/ online store</h2>
-    <p>Prices negotiated individually due to individual nature of the requirements. Cost of the static site will laregely reflect prices above, however, server code and database creation/management will increase costs.</p>
+        <h2>Domain</h2>
+        <p>The cost of a domain depends on the domain you want. Inlet Sites charges nothing additional for this.</p>
+
+        <h2>Blog</h2>
+        <p class="note">*Additional service, requires website</p>
+        <table><tbody>
+            <tr>
+                <td>Inlet Sites portal</td>
+                <td>$25.00/month</td>
+            </tr>
+            <tr>
+                <td>Portal on website</td>
+                <td>$500.00 development cost + $25.00/month</td>
+            </tr>
+        </tbody></table>
+
+        <h2>Photo Gallery</h2>
+        <p class="note">*Additional service, requires website</p>
+        <table><tbody>
+            <tr>
+                <td>Standard gallery using Inlet Sites portal</td>
+                <td>$100.00 development</td>
+            </tr>
+            <tr>
+                <td>Custom photo gallery or portal</td>
+                <td>Negotiated individually</td>
+            </tr>
+        </tbody></table>
+
+        <table>
+            <caption>Monthly cost based on number of photos</caption>
+            <tbody>
+                <tr>
+                    <td>0-100</td>
+                    <td>$5</td>
+                </tr>
+                <tr>
+                    <td>101-500</td>
+                    <td>$15</td>
+                </tr>
+                <tr>
+                    <td>501-1000</td>
+                    <td>$25</td>
+                <tr>
+                    <td>1000+</td>
+                    <td>$40</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Email</h2>
+        <p class="note">*Additional service, requires website</p>
+        <table><tbody>
+            <tr>
+                <td>Email address at your site</td>
+                <td>$5.00/month/email</td>
+            </tr>
+            <tr>
+                <td>Automated emailing</td>
+                <td>$0.01/email</td>
+            </tr>
+        </tbody></table>
+
+        <h2>Custom site/online store</h2>
+        <p>Prices negotiated individually due to individual nature of the requirements. Cost of the static site will laregely reflect prices above, however, server code and database creation/management will increase costs.</p>
+    </div>
 </div>
 
 <style>
-    .container{
-        margin: 75px auto;
-        width: 90%;
-        max-width: 1200px;
+    .Prices{
+        background: var(--lightBackground);
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        background: var(--darkBlue);
+        height: 250px;
+        padding-bottom: 35px;
+        color: white;
     }
 
     h1{
-        font-size: 48px;
-        text-decoration: underline;
+        font-size:55px;
         text-align: center;
+    }
+
+    .subtitle{
+        font-size: 24px;
+        margin: 35px 0 0 0;
+    }
+
+    .content{
+        width: 90%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-bottom: 35px;
     }
 
     .firstNote{
@@ -127,7 +154,7 @@
     }
 
     h2 a{
-        color: rgb(200, 200, 200);
+        color: black;
     }
 
     table{
@@ -147,5 +174,11 @@
 
     caption{
         margin-top: 15px;
+    }
+
+    @media screen and (max-width: 600px){
+        .header h1{
+            margin-bottom: 0;
+        }
     }
 </style>
