@@ -92,6 +92,7 @@
     .heroLogo{
         height: 85px;
         z-index: 2;
+        max-width: 100%;
     }
 
     .hero h2{
@@ -108,6 +109,8 @@
         font-size: 20px;
         color: white;
         z-index: 2;
+        text-align: center;
+        padding: 0 15px;
     }
 
     .buttonBox{
@@ -147,8 +150,8 @@
     }
 
     @media screen and (max-width: 700px){
-        .heroLogo{
-            width: 90%;
+        .hero h2{
+            font-size: 30px;
         }
     }
 </style>
