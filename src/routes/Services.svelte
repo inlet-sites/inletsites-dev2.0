@@ -74,6 +74,7 @@
         align-items: center;
         color: rgb(200, 200, 200);
         padding: 35px 0;
+        background: var(--darkBlue);
     }
 
     h1{
@@ -103,7 +104,7 @@
         height: 100%;
         width: 100%;
         position: absolute;
-        opacity: 0.35;
+        opacity: 0.55;
     }
 
     .serviceImage p{

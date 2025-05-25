@@ -33,6 +33,9 @@
         align-items: center;
         width: 100%;
         border-top: 2px solid white;
+        background: var(--darkBlue);
+        color: white;
+        padding-bottom: 35px;
     }
 
     h1{
@@ -45,12 +48,15 @@
     .contents{
         display: flex;
         width: 90%;
+        max-width: 1200px;
     }
 
     img{
         border-radius: 15px;
         opacity: 0.75;
-        width: 50%;
+        height: 350px;
+        width: 350px;
+        margin: auto;
     }
 
     .text{
@@ -58,12 +64,22 @@
         flex-direction: column;
         justify-content: space-between;
         margin-left: 55px;
+        font-size: 18px;
     }
 
     .details{
         margin-top: 35px;
         font-size: 26px;
         color: white;
+    }
+
+    ol{
+        flex-basis: 100px;
+        flex-grow: 1;
+    }
+
+    li{
+        margin: 15px 0;
     }
 
     @media screen and (max-width: 1200px){

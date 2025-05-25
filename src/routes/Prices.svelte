@@ -19,14 +19,14 @@
                 <tr>
                     <td>Static Site*</td>
                     <td>
-                        <p>Landing page: $500</p>
-                        <p>Extra pages: $100/page</p>
+                        <p>Up to 3 pages: $150</p>
+                        <p>Extra pages: $50/page</p>
                     </td>
                 </tr>
                 <tr>
                     <td>Hosting*</td>
                     <td>
-                        <p>Single page site: $50/month</p>
+                        <p>Single page site: $15/month</p>
                         <p>Extra pages: $5/page/month</p>
                     </td>
                 </tr>
@@ -36,7 +36,7 @@
                 </tr>
                 <tr>
                     <td>Websites with custom functionality</td>
-                    <td>Request a consultation</td>
+                    <td><a href="/contact">Request a consultation</a></td>
                 </tr>
             </tbody></table>
 
@@ -54,6 +54,8 @@
         align-items: center;
         padding: 35px 0;
         border-top: 2px solid white;
+        background: var(--darkBlue);
+        color: white;
     }
 
     h1{
@@ -65,6 +67,7 @@
     .prices{
         display: flex;
         width: 90%;
+        max-width: 1200px;
     }
 
     .description{
