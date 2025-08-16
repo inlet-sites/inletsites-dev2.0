@@ -1,7 +1,3 @@
-<script>
-    import "$lib/global.css";
-</script>
-
 <svelte:head>
     <title>Service | Inlet Sites</title>
     <meta name="description" content="Prices for Inlet Sites web development services">
