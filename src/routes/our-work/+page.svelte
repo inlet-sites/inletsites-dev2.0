@@ -1,6 +1,6 @@
 <script>
     import blacklistImage from "$lib/clients/blacklist-aero.webp";
-    import inletSitesImage from "$lib/favicon.png";
+    import inletSitesImage from "$lib/logoWhite.png";
     import utcImage from "$lib/clients/utc.webp";
 
     const items = [
