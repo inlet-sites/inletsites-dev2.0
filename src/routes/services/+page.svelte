@@ -23,6 +23,9 @@
 
         <p>As with all sites created by us, the website will work on desktop computers, phones, and everything in-between. We build all sites to work on all devices.</p>
 
+        <h2 id="digitalSignage">Digital Signage</h2>
+        <p>Digital signage is good for many businesses. This is simply a digital sign to display anything that you want your customers to see at your location. For example, a restaurant could display their menu or a shop might display pricing of some items. It is completely up to you what you would like displayed. Your signage may even contain a display that rotates between multiple different signs or something interactive for your customers.</p>
+
         <h2 id="domain">Domain Purchasing</h2>
         <p>In order to host your website online, you need to have a domain. The domain is just the address of your website. For example "inletsites.com". Inlet Sites will assist you in finding/purchasing your domain at no additional cost.</p>
 
@@ -31,6 +34,13 @@
         <p>The domain also costs money to mantain. It is a yearly cost and usually the same as the price to purchase it.</p>
 
         <p>You have the option of allowing Inlet Sites to purchase it for you and fully manage it. Or you can purchase it yourself and maintain it. Both options are free, but allowing Inlet Sites to manage it simplifies things. If purchased by Inlet Sites, you may request transfer to yourself at any time.</p>
+
+        <h2 id="onlineStore">Online Store</h2>
+        <p>If you want to sell online, then we have an online store <a href="https://inlet.shop">Inlet.Shop</a>, where you can sell all of your products online. Listing items on <a href="https://inlet.shop">Inlet.Shop</a> is completely free and the only fee is for sales through the site. You can use the site for to sell/ship items, to sell online for pickup in person, or simply to list you items for your customers to view. You will be able to edit, add and remove your items at any time through the vendor portal at <a href="https://vendor.inlet.shop">Vendor.Inlet.Shop</a>.</p>
+
+        <p>Listing on Inlet.Shop also has another bonus. If you have a website created and hosted by Inlet Sites, then we can display all of your items directly on your site at no extra cost. We will create a custom page to display your items however you want. This page will also update immediately when you update your items on Inlet.Shop. This will link to your page on Inlet.Shop, where customers can make purchases.</p>
+
+        <p>If you are looking to create a custom store on your own website, with all sales through the site instead of using <a href="https://inlet.shop">Inlet.Shop</a> then this will be a custom site and will depend on the scope of the project. Simply contact us to get started.</p>
 
         <h2 id="blog">Blog</h2>
         <p>A blog is an additional service that can be added on top of your website. There are two different options. Using the Inlet Sites portal to login/create your blogs, or creating a custom portal on your own website to create your blog posts.</p>
@@ -73,10 +83,6 @@
         <h2 id="paymentPlan">Payment Plans</h2>
         <p>Website development can be expensive, that is why we offered limited payment plans so that you may spread the payments out over the course of months, or even up to a few years. So long as you are receiving hosting services from us, you can spread the development costs over time. There are no extra fees for this, but hosting of the site is required until the development cost is paid off.</p>
 
-        <h2 id="store">Online Stores</h2>
-        <p>If you are looking to create a custom online store for your business then we can create that for you. The prices for this are negotiated case by case but we can handle any needs you have including a database of your products and online payments.</p>
-
-        <h2 id="onlinePayment">Online Payments</h2>
         <p>If you need to accept payments on your website, then we can create a way to do this on your site. Whether this is part of an online store, or you want to offer a way for customers/clients to make payments on your site. We use Stripe to process payments, which incurs its own costs as well.</p>
 
         <h2 id="custom">Custom Business Software</h2>
