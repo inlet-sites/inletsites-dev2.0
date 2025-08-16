@@ -65,7 +65,7 @@
         justify-content: flex-end;
         align-items: center;
         flex-wrap: wrap;
-        width: 100vw;
+        width: 100%;
         background: rgba(255, 255, 255, 0.35);
         position: absolute;
         top: 0;
@@ -122,7 +122,7 @@
             top: 0;
             left: 0;
             height: 100vh;
-            width: 100vw;
+            width: 100%;
             background: #041e42;
             z-index: 3;
             padding: 0;

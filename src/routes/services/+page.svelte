@@ -1,3 +1,7 @@
+<script>
+    import "$lib/global.css";
+</script>
+
 <svelte:head>
     <title>Service | Inlet Sites</title>
     <meta name="description" content="Prices for Inlet Sites web development services">
@@ -36,7 +40,7 @@
         <p>You have the option of allowing Inlet Sites to purchase it for you and fully manage it. Or you can purchase it yourself and maintain it. Both options are free, but allowing Inlet Sites to manage it simplifies things. If purchased by Inlet Sites, you may request transfer to yourself at any time.</p>
 
         <h2 id="onlineStore">Online Store</h2>
-        <p>If you want to sell online, then we have an online store <a href="https://inlet.shop">Inlet.Shop</a>, where you can sell all of your products online. Listing items on <a href="https://inlet.shop">Inlet.Shop</a> is completely free and the only fee is for sales through the site. You can use the site for to sell/ship items, to sell online for pickup in person, or simply to list you items for your customers to view. You will be able to edit, add and remove your items at any time through the vendor portal at <a href="https://vendor.inlet.shop">Vendor.Inlet.Shop</a>.</p>
+        <p>If you want to sell online, then we have an online store <a href="https://inlet.shop">Inlet.Shop</a>, where you can sell all of your products online. Listing items on <a href="https://inlet.shop">Inlet.Shop</a> is completely free and the only fee is for sales made through the site. You can use the site for to sell/ship items, to sell online for pickup in person, or simply to list you items for your customers to view. You will be able to edit, add and remove your items at any time through the vendor portal at <a href="https://vendor.inlet.shop">Vendor.Inlet.Shop</a>.</p>
 
         <p>Listing on Inlet.Shop also has another bonus. If you have a website created and hosted by Inlet Sites, then we can display all of your items directly on your site at no extra cost. We will create a custom page to display your items however you want. This page will also update immediately when you update your items on Inlet.Shop. This will link to your page on Inlet.Shop, where customers can make purchases.</p>
 
