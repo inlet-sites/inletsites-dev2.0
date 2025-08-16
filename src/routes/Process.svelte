@@ -1,7 +1,3 @@
-<script>
-    import workingTogether from "$lib/workingTogether.webp";
-</script>
-
 <div class="Process">
     <h1>The process</h1>
 
