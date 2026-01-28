@@ -2,6 +2,7 @@
     import blacklistImage from "$lib/clients/blacklist-aero.webp";
     import inletSitesImage from "$lib/logoWhite.png";
     import utcImage from "$lib/clients/utc.webp";
+    import ivanImage from "$lib/clients/insightCat.webp";
 
     const items = [
         {
@@ -18,9 +19,15 @@
         },
         {
             title: "Unique Teak Creations",
-            text: "Teak furniture beautifylly handcrafted by skilled artisans",
+            text: "Teak furniture beautifully handcrafted by skilled artisans",
             src: utcImage,
             url: "https://uniqueteakcreations.shop"
+        },
+        {
+            title: "Ivan Kordonets",
+            text: "Personal website of Ivan Kordonets",
+            src: ivanImage,
+            url: "https://ivanko.me"
         }
     ];
 </script>
